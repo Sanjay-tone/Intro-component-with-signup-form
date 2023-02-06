@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <title>Frontend Mentor | Login Page</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <main class="card">
+      <!-- left -->
+      <section class="left-container">
+        <h1 class="main-title">
+          Learn to code by <br />
+          watching others
+        </h1>
+        <p class="left-para">
+          See how experienced developers solve problems in real-time. <br />
+          Watching scripted tutorials is great, but understanding how <br />
+          developers think is invaluable.
+        </p>
+      </section>
+
+      <!-- right -->
+      <section class="right-container">
+        <button class="btn blue-btn">
+          <span class="color">Try it free 7 days</span> then $20/mo. thereafter
+        </button>
+        <div class="login-card">
+          <form id="form" class="inputs">
+            <div class="input-div">
+              <input
+                type="text"
+                placeholder="First Name"
+                class="user-input"
+                id="fname"
+                required
+              />
+              <p class="err-msg">First name can't be empty</p>
+            </div>
+            <div class="input-div">
+              <input
+                type="text"
+                id="lname"
+                placeholder="Last Name"
+                class="user-input"
+                required
+              />
+              <p class="err-msg">Last name can't be empty</p>
+            </div>
+            <div class="input-div">
+              <input
+                type="email"
+                id="mail"
+                placeholder="Email Address"
+                class="user-input"
+                required
+              />
+              <p class="err-msg">Email can't be empty</p>
+            </div>
+            <div class="input-div">
+              <input
+                type="password"
+                id="pw"
+                placeholder="Password"
+                class="user-input"
+                required
+              />
+              <p class="err-msg">Password can't be empty</p>
+            </div>
+
+            <button class="btn btn-green" id="btn-submit">
+              CLAIM YOUR FREE TRIAL
+            </button>
+          </form>
+          <p class="right-para">
+            By clicking the button, you are agreeing to our
+            <a href="#">Terms and Services</a>
+          </p>
+        </div>
+      </section>
+    </main>
+    <!-- custom javascript -->
+    <script src="./script.js"></script>
+  </body>
+</html>
